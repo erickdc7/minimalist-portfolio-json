@@ -1,5 +1,5 @@
 ---
-import { basics } from "@cv";
+import { basics } from "../../cv.json";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -14,6 +14,9 @@ const { city, region } = location;
         <!-- Robar icono -->
         {city}, {region}
       </span>
+      <footer>
+        {email && <a href={`mailto:${email}`} />}
+      </footer>
     </div>
     <figure>
       <img src={image} alt={name} />
