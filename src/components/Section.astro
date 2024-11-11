@@ -2,7 +2,9 @@
 const { title } = Astro.props;
 ---
 
-<section></section>
+<section>
+  {title && <h2>{title}</h2>}
+</section>
 
 <style>
   section {
