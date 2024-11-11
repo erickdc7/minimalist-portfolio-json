@@ -15,7 +15,14 @@ const { city, region } = location;
         {city}, {region}
       </span>
       <footer>
-        {email && <a href={`mailto:${email}`} />}
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+            />
+          )
+        }
       </footer>
     </div>
     <figure>
