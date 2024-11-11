@@ -1,11 +1,12 @@
 ---
 import { basics } from "../../../cv.json";
+import Section from "../Section.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 ---
 
-<section>
+<Section>
   <div class="container">
     <div class="info">
       <h1>{name}</h1>
@@ -34,8 +35,6 @@ const { city, region } = location;
       <img src={image} alt={name} />
     </figure>
   </div>
-</section>
+</Section>
 
-<style>
- 
-</style>
+<style></style>
