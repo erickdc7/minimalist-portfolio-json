@@ -20,7 +20,11 @@ const { city, region } = location;
             <a
               href={`mailto:${email}`}
               title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-            />
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {/* Robar icono */}
+            </a>
           )
         }
       </footer>
