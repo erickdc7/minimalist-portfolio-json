@@ -2,6 +2,7 @@
 import Mail from "@/icons/Mail.astro";
 import { basics } from "../../../cv.json";
 import Section from "../Section.astro";
+import Phone from "@/icons/Phone.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -25,8 +26,19 @@ const { city, region } = location;
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/* Robar icono */}
               <Mail />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
             </a>
           )
         }
