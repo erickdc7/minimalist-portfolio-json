@@ -10,7 +10,11 @@ import GitHub from "@/icons/GitHub.astro";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
-const SOCIAL_ICONS: Record<string, any> = {};
+const SOCIAL_ICONS: Record<string, any> = {
+  GitHub,
+  LinkedIn,
+  X,
+};
 ---
 
 <Section>
@@ -46,6 +50,22 @@ const SOCIAL_ICONS: Record<string, any> = {};
               <Phone />
             </a>
           )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <a
+                href={url}
+                title={`Visitar el perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon />
+              </a>
+            );
+          })
         }
       </footer>
     </div>
