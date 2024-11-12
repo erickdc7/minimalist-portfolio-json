@@ -1,11 +1,16 @@
 ---
-import Mail from "@/icons/Mail.astro";
 import { basics } from "../../../cv.json";
 import Section from "../Section.astro";
 import Phone from "@/icons/Phone.astro";
+import Mail from "@/icons/Mail.astro";
+import X from "@/icons/X.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {};
 ---
 
 <Section>
