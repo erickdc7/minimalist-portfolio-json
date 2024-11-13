@@ -9,11 +9,22 @@ import { work } from "@cv";
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          const years = `${startYear} - ${endYear}`;
+
           return (
             <li>
-              <h3>{name}</h3>
-              <h4>{position}</h4>
-              <p>{summary}</p>
+              <article>
+                <header>
+                  <h3>{name}</h3>
+                  <h4>{position}</h4>
+                </header>
+                <footer>
+                  <p>{summary}</p>
+                </footer>
+              </article>
             </li>
           );
         }
