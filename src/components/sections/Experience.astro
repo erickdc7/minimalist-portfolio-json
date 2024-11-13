@@ -5,5 +5,17 @@ import { work } from "@cv";
 ---
 
 <Section title="Experience">
-  <ul></ul>
+  <ul>
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, highlights }) => {
+          return (
+            <li>
+              <h3 />
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
 </Section>
