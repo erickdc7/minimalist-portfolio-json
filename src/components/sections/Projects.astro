@@ -5,17 +5,19 @@ import { projects } from "@cv";
 ---
 
 <Section title="Projects">
-    <ul>
-        {
-            projects.map(project=>{
-                return (
-                    <li>
-                        <article>
-                            
-                        </article>
-                    </li>
-                )
-            })
-        }
-    </ul>
+  <ul>
+    {
+      projects.map(({ url, description, highlights, name, isActive }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <a href={url} title={`Ver el proyecto ${name}`} />
+              </header>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
