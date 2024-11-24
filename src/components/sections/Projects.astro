@@ -18,7 +18,9 @@ import { projects } from "@cv";
                 <p>{description}</p>
               </header>
               <footer>
-                
+                {highlights.map((highlight) => {
+                  return <li>{highlight}</li>;
+                })}
               </footer>
             </article>
           </li>
