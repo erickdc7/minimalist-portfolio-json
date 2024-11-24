@@ -12,9 +12,12 @@ import { projects } from "@cv";
           <li>
             <article>
               <header>
-                <a href={url} title={`Ver el proyecto ${name}`}>
-                  <h3>{name}</h3>
-                </a>
+                <h3>
+                  <a href={url} title={`Ver el proyecto ${name}`}>
+                    {name}
+                  </a>
+                  {isActive && <span>&bull;</span>}
+                </h3>
                 <p>{description}</p>
               </header>
               <footer>
