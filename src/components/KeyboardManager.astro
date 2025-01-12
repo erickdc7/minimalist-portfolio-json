@@ -76,6 +76,18 @@ const profilesInfo = profiles.map(({ network, url }) => {
   const ninja = document.querySelector("ninja-keys");
 
   if (ninja != null) {
+    const info = ninja.getAttribute("data-info") ?? "[]";
+    const parsedInfo = JSON.parse(info);
+
+    const data = parsedInfo.map((item: any) => {
+      return {
+        ...item,
+        handler: () => {
+          window.open(item.url, "_blank");
+        },
+      };
+    });
+
     ninja.data = [
       {
         id: "print",
