@@ -63,7 +63,12 @@ const profilesInfo = profiles.map(({ network, url }) => {
   Pulsa <kbd>Cmd</kbd> + <kbd>k</kbd> para abrir la paleta de comandos.
 </footer>
 
-<ninja-keys placeholder="Buscar comando" hideBreadcrumbs> </ninja-keys>
+<ninja-keys
+  data-info={JSON.stringify(profilesInfo)}
+  placeholder="Buscar comando"
+  hideBreadcrumbs
+>
+</ninja-keys>
 
 <script>
   import "ninja-keys";
