@@ -284,6 +284,17 @@
             "url": "https://erickdc7.github.io/rickmorty-eddy/"
         },
         {
+            "name": "Calcular Promedio APP",
+            "isActive": true,
+            "description": "Aplicación web interactiva que permite a los usuarios calcular su promedio ponderado de notas.",
+            "highlights": [
+                "ReactJS",
+                "Responsive Web Design",
+                "Vite"
+            ],
+            "url": "https://calcula-tu-promedio.netlify.app/"
+        },
+        {
             "name": "Cesar Vallejo Tributo",
             "isActive": true,
             "description": "Página web tributo al poeta y escritor peruano César Vallejo.",
