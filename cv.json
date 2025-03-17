@@ -307,24 +307,27 @@
             "github": "https://erickdc7.github.io/accesibilidad-plus/"
         },
         {
-            "name": "Pruebas Técnicas",
+            "name": "Cifrado APP",
             "isActive": true,
-            "description": "Lista de pruebas técnicas de empresas para practicar programación",
+            "description": "Aplicación Java para cifrar/descifrar textos con múltiples algoritmos.",
             "highlights": [
-                "100% gratuito",
-                "+500 soluciones de la comunidad"
+                "Java",
+                "Cifrado/Descifrado de Textos",
+                "Encriptación"
             ],
-            "url": "https://pruebastecnicas.com",
-            "github": "https://github.com/midudev/pruebas-tecnicas"
+            "url": "https://github.com/erickdc7/cifrado-app",
+            "github": "https://github.com/erickdc7/cifrado-app"
         },
         {
-            "name": "miduConf",
-            "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+            "name": "Juego de Preguntas",
+            "description": "Juego de preguntas hecho con HTML, CSS y JS.",
             "highlights": [
-                "+15k tickets repartidos",
-                "+50k espectadores en directo"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Juego"
             ],
-            "url": "https://miduconf.com"
+            "url": "https://erickdc7.github.io/juego-preguntas/"
         }
     ]
 }
