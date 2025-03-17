@@ -1,34 +1,29 @@
 {
     "basics": {
-        "name": "Miguel Ángel Durán",
-        "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+        "name": "Erick David Díaz Córdova",
+        "label": "Estudiante de Ingeniería de Software apasionado por el desarrollo web y la tecnología",
         "image": "https://avatars.githubusercontent.com/u/82739201?v=4",
-        "email": "miduga@gmail.com",
-        "phone": "+34 688888888",
+        "email": "erickdiazc717@gmail.com",
+        "phone": "+51 920191518",
         "url": "https://midu.dev",
-        "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+        "summary": "Estudiante de Ingeniería de Software apasionado por la tecnología y el desarrollo web. Me caracterizo por mi compromiso, proactividad y capacidad para adaptarme a nuevos retos. Tengo experiencia trabajando en equipo en proyectos de desarrollo, aplicando metodologías ágiles y mejorando continuamente mis habilidades técnicas y de colaboración. Busco oportunidades para aplicar mis conocimientos y seguir creciendo profesionalmente en el ámbito tecnológico.",
         "location": {
             "address": "",
-            "postalCode": "08820",
-            "city": "el Prat de Llobregat",
-            "countryCode": "ES",
-            "region": "España"
+            "postalCode": "15023",
+            "city": "Lima",
+            "countryCode": "PE",
+            "region": "Perú"
         },
         "profiles": [
             {
                 "network": "LinkedIn",
-                "username": "midudev",
-                "url": "https://linkedin.com/in/midudev"
-            },
-            {
-                "network": "X",
-                "username": "midudev",
-                "url": "https://x.com/midudev"
+                "username": "erick-diaz-c17",
+                "url": "https://www.linkedin.com/in/erick-diaz-c17/"
             },
             {
                 "network": "GitHub",
-                "username": "midudev",
-                "url": "https://github.com/midudev"
+                "username": "erickdc7",
+                "url": "https://github.com/erickdc7"
             }
         ]
     },
@@ -81,15 +76,27 @@
     ],
     "education": [
         {
-            "institution": "Universitat Oberta de Catalunya",
-            "url": "https://www.uoc.edu/portal/es/index.html",
-            "area": "Ingeniero de Software",
+            "institution": "Universidad Tecnológica del Perú",
+            "url": "https://www.utp.edu.pe/",
+            "area": "Ingeniería de Software",
             "studyType": "Bachelor",
-            "startDate": "2003-01-01",
-            "endDate": "2009-01-01",
+            "startDate": "2018-01-01",
+            "endDate": "2026-01-01",
             "score": "4.0",
             "courses": [
                 "DB1101 - Basic SQL"
+            ]
+        },
+        {
+            "institution": "Asociación Cultural Peruano Británica",
+            "url": "https://www.britanico.edu.pe/",
+            "area": "Inglés - Avanzado I",
+            "studyType": "Bachelor",
+            "startDate": "2023-01-01",
+            "endDate": "2026-01-01",
+            "score": "4.0",
+            "courses": [
+                "Inglés - Avanzado I"
             ]
         }
     ],
