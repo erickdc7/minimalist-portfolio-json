@@ -90,7 +90,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
   }
 
   .info {
@@ -98,6 +99,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 32px;
+    flex: 1;
   }
 
   h1 {
@@ -131,8 +133,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     color: #555;
     font-size: 0.65rem;
     display: flex;
-    gap: 4px;
+    gap: 6px;
     margin-top: 8px;
+    flex-wrap: wrap;
   }
 
   footer a {
@@ -141,7 +144,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     align-items: center;
     justify-content: center;
     border: 1px solid #eee;
-    padding: 4px;
+    padding: 6px;
     height: 32px;
     border-radius: 6px;
     transition: all 0.3s ease;
@@ -150,5 +153,63 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
   footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .info {
+      padding-right: 0;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    span {
+      justify-content: center;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      justify-content: center;
+      font-size: 0.7rem;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      gap: 1rem;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+    }
+
+    h2 {
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      height: 28px;
+      padding: 4px;
+    }
+
+    img {
+      width: 90px;
+    }
   }
 </style>

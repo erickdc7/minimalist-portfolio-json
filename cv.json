@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Erick David Díaz Córdova",
-        "label": "Estudiante de Ingeniería de Software apasionado por el desarrollo web y la tecnología",
+        "label": "Egresado de Ingeniería de Software apasionado por el desarrollo web y la tecnología",
         "image": "https://avatars.githubusercontent.com/u/82739201?v=4",
         "email": "erickdiazc717@gmail.com",
         "phone": "+51 920191518",
         "url": "https://erickdiaz-portafolio.netlify.app/",
-        "summary": "Estudiante de Ingeniería de Software apasionado por la tecnología y el desarrollo web. Me caracterizo por mi compromiso, proactividad y capacidad para adaptarme a nuevos retos. Tengo experiencia trabajando en equipo en proyectos de desarrollo, aplicando metodologías ágiles y mejorando continuamente mis habilidades técnicas y de colaboración. Busco oportunidades para aplicar mis conocimientos y seguir creciendo profesionalmente en el ámbito tecnológico.",
+        "summary": "Egresado de Ingeniería de Software apasionado por la tecnología y el desarrollo web. Me caracterizo por mi compromiso, proactividad y capacidad para adaptarme a nuevos retos. Tengo experiencia trabajando en equipo en proyectos de desarrollo, aplicando metodologías ágiles y mejorando continuamente mis habilidades técnicas y de colaboración. Busco oportunidades para aplicar mis conocimientos y seguir creciendo profesionalmente en el ámbito tecnológico.",
         "location": {
             "address": "",
             "postalCode": "15023",
@@ -90,7 +90,7 @@
         {
             "institution": "Asociación Cultural Peruano Británica",
             "url": "https://www.britanico.edu.pe/",
-            "area": "Inglés - Avanzado V",
+            "area": "Inglés - Avanzado VI",
             "studyType": "Bachelor",
             "startDate": "2023-01-01",
             "endDate": null,
@@ -298,8 +298,7 @@
         {
             "name": "Wildlife",
             "keywords": [
-                "Ferrets",
-                "Unicorns"
+                "Ferrets"
             ]
         }
     ],
@@ -311,9 +310,33 @@
     ],
     "projects": [
         {
-            "name": "Suikanime",
+            "name": "César Vallejo",
             "isActive": true,
-            "description": "Página de anime inspirada y con datos de AnmoSugoi y MyAnimeList.",
+            "description": "Sitio web dedicado a la vida y obra de César Vallejo, uno de los más grandes poetas del siglo XX y máximo exponente de las letras peruanas.",
+            "highlights": [
+                "Astro",
+                "React",
+                "Tailwind CSS",
+                "Framer Motion"
+            ],
+            "url": "https://cesar-vallejo-website.vercel.app/"
+        },
+        {
+            "name": "Country Explorer",
+            "isActive": true,
+            "description": "Aplicación web para explorar información de países de todo el mundo utilizando la API pública de REST Countries.",
+            "highlights": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind CSS",
+                "shadcn/ui"
+            ],
+            "url": "https://country-explorer-kohl.vercel.app/"
+        },
+        {
+            "name": "Suikanime",
+            "isActive": false,
+            "description": "Sitio web que muestra los animes en emisión, los más populares y noticias del anime, inspirado en fuentes como JKanime, AnimeFLV y MyAnimeList.",
             "highlights": [
                 "Responsive Web Design",
                 "Jikan API",
@@ -323,8 +346,8 @@
             "url": "https://erickdc7.github.io/Suikanime/"
         },
         {
-            "name": "Rick & Morty - Data",
-            "isActive": true,
+            "name": "Rick & Morty",
+            "isActive": false,
             "description": "Página web está desarrollada para consumir datos de la API oficial de Rick y Morty.",
             "highlights": [
                 "Rick & Morty",
@@ -334,8 +357,8 @@
             "url": "https://erickdc7.github.io/rickmorty-eddy/"
         },
         {
-            "name": "Calcular Promedio APP",
-            "isActive": true,
+            "name": "Calculo de Promedios",
+            "isActive": false,
             "description": "Aplicación web interactiva que permite a los usuarios calcular su promedio ponderado de notas.",
             "highlights": [
                 "ReactJS",
@@ -345,20 +368,9 @@
             "url": "https://calcula-tu-promedio.netlify.app/"
         },
         {
-            "name": "Cesar Vallejo Tributo",
-            "isActive": true,
-            "description": "Página web tributo al poeta y escritor peruano César Vallejo.",
-            "highlights": [
-                "César Vallejo.",
-                "Página Web Tributo",
-                "Responsive Web Design"
-            ],
-            "url": "https://erickdc7.github.io/Cesar-Vallejo-Tribute/"
-        },
-        {
-            "name": "Accesibilidad +",
-            "isActive": true,
-            "description": "Accesibilidad+ informa y facilita ajustes de letra y contraste para una web inclusiva.",
+            "name": "Accesibilidad+",
+            "isActive": false,
+            "description": "Pagina web que informa y facilita ajustes de letra y contraste para una web inclusiva.",
             "highlights": [
                 "Accesibilidad Web",
                 "Responsive Web Design",
@@ -369,7 +381,7 @@
         },
         {
             "name": "Cifrado APP",
-            "isActive": true,
+            "isActive": false,
             "description": "Aplicación Java para cifrar/descifrar textos con múltiples algoritmos.",
             "highlights": [
                 "Java",
@@ -381,7 +393,8 @@
         },
         {
             "name": "Juego de Preguntas",
-            "description": "Juego de preguntas hecho con HTML, CSS y JS.",
+            "isActive": false,
+            "description": "Página web tipo quiz con preguntas de opción múltiple donde el usuario debe adivinar respuestas sobre temas generales.",
             "highlights": [
                 "HTML",
                 "CSS",
