@@ -80,8 +80,8 @@
             "url": "https://www.utp.edu.pe/",
             "area": "Ingeniería de Software",
             "studyType": "Bachelor",
-            "startDate": "2018-01-01",
-            "endDate": null,
+            "startDate": "2017-02-01",
+            "endDate": "2025-02-01",
             "score": "4.0",
             "courses": [
                 "DB1101 - Basic SQL"
@@ -92,11 +92,11 @@
             "url": "https://www.britanico.edu.pe/",
             "area": "Inglés - Avanzado VI",
             "studyType": "Bachelor",
-            "startDate": "2023-01-01",
+            "startDate": "2025-02-01",
             "endDate": null,
             "score": "4.0",
             "courses": [
-                "Inglés - Avanzado V"
+                "Inglés - Avanzado VI"
             ]
         }
     ],
@@ -310,6 +310,19 @@
     ],
     "projects": [
         {
+            "name": "La Casa del Alfajor",
+            "isActive": true,
+            "description": "Rediseño del e-commerce “La Casa del Alfajor”, incorporando búsqueda en tiempo real, carrito persistente y un checkout en varios pasos.",
+            "highlights": [
+                "Next.js 15",
+                "TypeScript",
+                "React 19",
+                "Tailwind CSS",
+                "E-commerce"
+            ],
+            "url": "https://la-casa-del-alfajor.vercel.app/"
+        },
+        {
             "name": "César Vallejo",
             "isActive": true,
             "description": "Sitio web dedicado a la vida y obra de César Vallejo, uno de los más grandes poetas del siglo XX y máximo exponente de las letras peruanas.",
@@ -323,7 +336,7 @@
         },
         {
             "name": "Country Explorer",
-            "isActive": true,
+            "isActive": false,
             "description": "Aplicación web para explorar información de países de todo el mundo utilizando la API pública de REST Countries.",
             "highlights": [
                 "Next.js",
