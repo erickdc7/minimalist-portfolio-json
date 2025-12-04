@@ -349,7 +349,7 @@
         {
             "name": "Cloudsy",
             "isActive": false,
-            "description": "Aplicación del clima que consume la API de OpenWeather, con diseño Bento Grid moderno, búsqueda inteligente de ciudades con autocompletado y pronóstico de 3 días.",
+            "description": "App del clima que consume OpenWeather API, con búsqueda inteligente, autocompletado y pronóstico de 3 días.",
             "highlights": [
                 "React",
                 "Node.js",
