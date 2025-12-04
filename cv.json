@@ -347,6 +347,20 @@
             "url": "https://country-explorer-kohl.vercel.app/"
         },
         {
+            "name": "Cloudsy",
+            "isActive": false,
+            "description": "Aplicación del clima que consume la API de OpenWeather, con diseño Bento Grid moderno, búsqueda inteligente de ciudades con autocompletado y pronóstico de 3 días.",
+            "highlights": [
+                "React",
+                "Node.js",
+                "Express",
+                "Tailwind CSS",
+                "Framer Motion",
+                "OpenWeather API"
+            ],
+            "url": "https://cloudsy.vercel.app/"
+        },
+        {
             "name": "Suikanime",
             "isActive": false,
             "description": "Sitio web que muestra los animes en emisión, los más populares y noticias del anime, inspirado en fuentes como JKanime, AnimeFLV y MyAnimeList.",
