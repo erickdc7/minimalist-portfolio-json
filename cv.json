@@ -314,17 +314,32 @@
             "isActive": true,
             "description": "Rediseño del e-commerce “La Casa del Alfajor”, incorporando búsqueda en tiempo real, carrito persistente y un checkout en varios pasos.",
             "highlights": [
-                "Next.js 15",
+                "Next.js",
                 "TypeScript",
-                "React 19",
+                "React",
                 "Tailwind CSS",
                 "E-commerce"
             ],
             "url": "https://la-casa-del-alfajor.vercel.app/"
         },
         {
-            "name": "César Vallejo",
+            "name": "Kallpa Crochet",
             "isActive": true,
+            "description": "E-commerce desarrollado para un emprendimiento universitario dedicado a la venta de bolsos y accesorios tejidos a crochet.",
+            "highlights": [
+                "Next.js",
+                "TypeScript",
+                "React",
+                "Tailwind CSS",
+                "Framer Motion",
+                "E-commerce"
+            ],
+            "url": "https://kallpa-crochet.vercel.app/",
+            "github": "https://github.com/erickdc7/kallpa-ecommerce"
+        },
+        {
+            "name": "César Vallejo",
+            "isActive": false,
             "description": "Sitio web dedicado a la vida y obra de César Vallejo, uno de los más grandes poetas del siglo XX y máximo exponente de las letras peruanas.",
             "highlights": [
                 "Astro",
