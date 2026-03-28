@@ -261,6 +261,16 @@
                 "JavaScript Library",
                 "UI"
             ]
+        },
+        {
+            "name": "PHP",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Library",
+                "UI"
+            ]
         }
     ],
     "languages": [
