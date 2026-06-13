@@ -343,6 +343,22 @@
             "github": "https://github.com/erickdc7/sorai-app"
         },
         {
+            "name": "Cronos Flow",
+            "isActive": true,
+            "description": "Aplicación web fullstack para el seguimiento de actividades diarias. Permite gestionar rutinas, marcarlas como completadas, agregar anotaciones y consultar el historial.",
+            "highlights": [
+                "React",
+                "Node.js",
+                "Express",
+                "PostgreSQL",
+                "Supabase",
+                "Tailwind CSS",
+                "Full-stack"
+            ],
+            "url": "https://cronos-flow-notes.vercel.app/",
+            "github": "https://github.com/erickdc7/cronos-flow"
+        },
+        {
             "name": "César Vallejo",
             "isActive": false,
             "description": "Sitio web dedicado a la vida y obra de César Vallejo, uno de los más grandes poetas del siglo XX y máximo exponente de las letras peruanas.",
