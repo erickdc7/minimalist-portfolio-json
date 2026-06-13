@@ -327,6 +327,22 @@
             "github": "https://github.com/erickdc7/kallpa-ecommerce"
         },
         {
+            "name": "Sorai",
+            "isActive": true,
+            "description": "Plataforma web para seguimiento de animes. Permite explorar títulos, guardarlos en listas personales, gestionar su estado de visualización y calificarlos.",
+            "highlights": [
+                "Next.js",
+                "TypeScript",
+                "React",
+                "Tailwind CSS",
+                "Supabase",
+                "PostgreSQL",
+                "Jikan API"
+            ],
+            "url": "https://sorai-app.vercel.app/",
+            "github": "https://github.com/erickdc7/sorai-app"
+        },
+        {
             "name": "César Vallejo",
             "isActive": false,
             "description": "Sitio web dedicado a la vida y obra de César Vallejo, uno de los más grandes poetas del siglo XX y máximo exponente de las letras peruanas.",
